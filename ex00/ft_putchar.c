@@ -6,12 +6,13 @@
 /*   By: azaragoz <azaragoz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/10 13:58:31 by azaragoz          #+#    #+#             */
-/*   Updated: 2025/07/10 16:20:37 by azaragoz         ###   ########.fr       */
+/*   Updated: 2025/07/11 12:22:19 by azaragoz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void ft_putchar(char c) {
-    write(1, &c, 1);
-};
+void	ft_putchar(char c)
+{
+	write(1, &c, 1);
+}
