@@ -6,7 +6,7 @@
 /*   By: azaragoz <azaragoz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/11 10:14:27 by azaragoz          #+#    #+#             */
-/*   Updated: 2025/07/14 10:56:12 by azaragoz         ###   ########.fr       */
+/*   Updated: 2025/07/14 11:56:11 by azaragoz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void	ft_print_alphabet(void)
 	letter = 'a';
 	while (letter <= 'z')
 	{
-		write(1, &letter, 1);
+		write (1, &letter, 1);
 		letter++;
 	}
 }
