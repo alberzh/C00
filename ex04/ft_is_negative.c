@@ -6,18 +6,16 @@
 /*   By: azaragoz <azaragoz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/14 12:38:08 by azaragoz          #+#    #+#             */
-/*   Updated: 2025/07/14 13:10:38 by azaragoz         ###   ########.fr       */
+/*   Updated: 2025/07/14 15:41:22 by azaragoz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_is_negative(void)
+void	ft_is_negative(int num)
 {
-	int	num;
-
-	if (num >= 0)
-		write (1, "P", 1);
-	else
+	if (num < 0)
 		write (1, "N", 1);
+	else
+		write (1, "P", 1);
 }
